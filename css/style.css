@@ -1,5 +1,6 @@
 .wrapper {
 	max-width: 1245px;
+	padding: 0 30px;
 	margin: 0 auto;
 }
 
@@ -13,7 +14,7 @@
 .flex {
 	display: flex;
 }
-
+/* HEADER */
 .header-container {
 	width: 100%;
 	background-color: #18568f;
@@ -21,7 +22,6 @@
 
 .header {
 	display: flex;
-	padding: 0 20px;
 	justify-content: space-between;
 }
 
@@ -54,7 +54,8 @@
 
 @media (max-width: 960px) {
 	.wrapper {
-		margin: 0;
+		padding: 0 30px;
+		margin: 0 auto;
 	}
 	.header-nav {
 		display: none;
@@ -62,6 +63,13 @@
 
 	.nav-burger {
 		display: block;
+	}
+}
+
+@media (max-width: 767px) {
+	.wrapper {
+		padding: 0 10px;
+		margin: 0 auto;
 	}
 }
 
@@ -129,5 +137,121 @@
 
 	.header-right {
 		order: 3;
+	}
+}
+/* HEADER END	*/
+
+/* FOOTER */
+
+.footer.wrapper {
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.footer-container {
+	width: 100%;
+	background-color: #18568f;
+}
+
+.footer-upper {
+	padding-top: 20px;
+}
+.footer a {
+	color: #fff;
+	/* font-size: 9px; */
+	display: block;
+}
+
+.footer-business-card-logo,
+.footer-business-card-logo img {
+	max-width: 150px;
+}
+
+.footer-business-card {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.footer-business-card-logo {
+	display: inline-block;
+}
+
+.footer-business-card-contacts {
+	display: inline-block;
+}
+
+.footer-business-card-contacts-header {
+	font-size: 12px;
+	/* font-weight: bold; */
+	color: #ffffff;
+}
+
+.footer-links {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.footer-links-block {
+	max-width: 250px;
+	min-width: 150px;
+	/* padding-right: 10px; */
+	margin-bottom: 10px;
+	/* padding-right: 20px; */
+}
+
+.footer-links-block a {
+	font-size: 11px;
+}
+
+.footer-links-block-header {
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.footer-disclaimer {
+	padding-bottom: 20px;
+}
+
+.footer-disclaimer-header {
+	font-size: 10px;
+	font-weight: bold;
+	color: #9badc5;
+}
+
+.footer-disclaimer p {
+	font-size: 10px;
+	color: #9badc5;
+}
+
+@media (min-width: 768px) {
+	.footer.wrapper {
+		padding: 0 30px;
+		margin: 0 auto;
+	}
+	.footer-business-card {
+		display: inline-block;
+		/* flex-grow: 2; */
+	}
+
+	.footer-business-card-logo {
+		display: block;
+	}
+
+	.footer-upper {
+		display: flex;
+		justify-content: space-between;
+	}
+	.footer-links {
+		/* flex-grow: 3; */
+		justify-content: flex-end;
+	}
+
+	.footer-links-block {
+		max-width: 250px;
+		padding-right: 20px;
+		margin-bottom: 20px;
 	}
 }
