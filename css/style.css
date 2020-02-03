@@ -186,7 +186,7 @@
 .hero-infograph {
 	display: flex;
 	flex-wrap: nowrap;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 
 .hero-infograph-item {
@@ -227,7 +227,12 @@
 }
 
 .hero-btn-container {
-	display: block;
+	display: flex;
+	justify-content: space-around;
+}
+
+.hero-btn {
+	flex-grow: 1;
 }
 
 .hero-btn a {
@@ -258,12 +263,20 @@
 		display: none;
 	}
 
+	.hero-screamer {
+		margin: 40px 0;
+	}
+
 	.hero-screamer.sm {
 		display: none;
 	}
 
 	.hero-screamer.lg {
 		display: block;
+	}
+
+	.hero-infograph {
+		margin-bottom: 40px;
 	}
 
 	.hero-infograph-item-pic.lg {
@@ -285,6 +298,29 @@
 	.hero-btn a {
 		padding: 15px 40px;
 		width: fit-content;
+	}
+}
+
+@media (min-width: 769px) {
+	.hero-infograph {
+		max-width: 720px;
+		justify-content: flex-start;
+	}
+
+	.hero-infograph-item {
+		padding-right: 50px;
+	}
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+	.hero-btn.sm {
+		max-width: 500px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 340px) {
+	.hero-infograph {
+		flex-wrap: wrap;
 	}
 }
 /* HERO END*/
