@@ -361,12 +361,17 @@
 }
 
 .footer-business-card-contacts {
+	font-family: 'CynthoNext-Regular';
+	font-size: 9px;
 	display: inline-block;
 }
 
 .footer-business-card-contacts-header {
+	font-family: 'CynthoNext-Regular';
 	font-size: 12px;
 	color: #ffffff;
+	display: block;
+	padding-bottom: 5px;
 }
 
 .footer-links {
@@ -382,10 +387,13 @@
 }
 
 .footer-links-block a {
+	font-family: 'CynthoNext-Regular';
 	font-size: 11px;
+	line-height: 24px;
 }
 
 .footer-links-block-header {
+	font-family: 'CynthoNext-Medium';
 	font-size: 14px;
 	font-weight: bold;
 	color: #ffffff;
@@ -397,12 +405,14 @@
 }
 
 .footer-disclaimer-header {
+	font-family: 'CynthoNext-Medium';
 	font-size: 10px;
 	font-weight: bold;
 	color: #9badc5;
 }
 
 .footer-disclaimer p {
+	font-family: 'CynthoNext-Regular';
 	font-size: 10px;
 	color: #9badc5;
 }
