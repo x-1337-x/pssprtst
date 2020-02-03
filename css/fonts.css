@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'PFCentroSlabPro-Bold';
+    src: url('../fonts/PFCentroSlabPro-Bold.eot');
+    src: local('☺'), url('../fonts/PFCentroSlabPro-Bold.woff') format('woff'), url('../fonts/PFCentroSlabPro-Bold.ttf') format('truetype'), url('../fonts/PFCentroSlabPro-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CynthoNext-Regular';
+    src: url('../fonts/CynthoNext-Regular.eot');
+    src: local('☺'), url('../fonts/CynthoNext-Regular.woff') format('woff'), url('../fonts/CynthoNext-Regular.ttf') format('truetype'), url('../fonts/CynthoNext-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CynthoNext-Medium';
+    src: url('../fonts/CynthoNext-Medium.eot');
+    src: local('☺'), url('../fonts/CynthoNext-Medium.woff') format('woff'), url('../fonts/CynthoNext-Medium.ttf') format('truetype'), url('../fonts/CynthoNext-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

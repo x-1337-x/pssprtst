@@ -6,7 +6,7 @@
 
 @media (min-width: 1200px) {
 	.wrapper {
-		max-width: 1000px;
+		/* max-width: 1000px; */
 		margin: 0 auto;
 	}
 }
@@ -139,13 +139,131 @@
 	.header-right {
 		order: 3;
 	}
+
+	.header-contact a {
+		margin: 10px 0;
+	}
 }
 /* HEADER END	*/
 
 /* HERO */
+
 .hero {
 	min-height: 500px;
+
+	/* background-size: 100% cover; */
+	/* background-repeat: no-repeat; */
+	/* background-image: url(../images/hero-bg.jpg); */
+	/* background: url(../images/hero-bg.jpg) 100% 70px no-repeat fixed; */
+	/* background-position: bottom left; */
+	/* background-position: center; */
+	/* background-size: 100% auto; */
+}
+
+.hero-container {
 	background-color: #18568f;
+	background: url(../images/hero-bg.jpg) 100% 70px no-repeat fixed;
+}
+
+.hero-screamer {
+	font-family: 'PFCentroSlabPro-Bold';
+	color: #ffffff;
+}
+
+.hero-screamer.lg {
+	font-size: 36px;
+	display: none;
+}
+
+.hero-screamer.sm {
+	font-size: 28px;
+}
+
+.hero-screamer_emph {
+	color: #ff7f20;
+}
+
+.hero-infograph {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.hero-infograph-item {
+	display: flex;
+}
+
+.hero-infograph-item-pic.lg {
+	display: none;
+}
+
+.hero-infograph-item-text {
+	font-family: 'CynthoNext-Regular';
+	color: #ffffff;
+}
+
+.hero-infograph-item-text.lg {
+	font-size: 20px;
+	display: none;
+}
+
+.hero-infograph-item-text.sm {
+	font-size: 13px;
+}
+
+.hero-btn-container {
+	max-width: 440px;
+}
+
+.hero-btn {
+	font-family: 'CynthoNext-Regular';
+	color: #ffffff;
+	background-color: #ff7f20;
+	border-radius: 10px;
+}
+
+.hero-btn.lg {
+	font-size: 22px;
+	padding: 15px 35px;
+	display: none;
+}
+
+.hero-btn.sm {
+	font-size: 18px;
+	padding: 15px 35px;
+}
+
+@media (min-width: 768px) {
+	.hero-btn.lg {
+		display: block;
+	}
+
+	.hero-btn.sm {
+		display: none;
+	}
+
+	.hero-screamer.sm {
+		display: none;
+	}
+
+	.hero-screamer.lg {
+		display: block;
+	}
+
+	.hero-infograph-item-pic.lg {
+		display: block;
+	}
+
+	.hero-infograph-item-pic.sm {
+		display: none;
+	}
+
+	.hero-infograph-item-text.lg {
+		display: block;
+	}
+
+	.hero-infograph-item-text.sm {
+		display: none;
+	}
 }
 /* HERO END*/
 
@@ -205,6 +323,10 @@
 	margin-bottom: 10px;
 }
 
+.footer-links-block:last-child {
+	padding-right: 0;
+}
+
 .footer-links-block a {
 	font-size: 11px;
 }
@@ -256,6 +378,10 @@
 		max-width: 250px;
 		padding-right: 20px;
 		margin-bottom: 20px;
+	}
+
+	.footer-links-block:last-child {
+		padding-right: 0;
 	}
 }
 /* FOOTER END */
