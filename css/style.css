@@ -151,6 +151,7 @@
 .hero {
 	min-height: 500px;
 	position: relative;
+	overflow-x: hidden;
 }
 
 .hero-container {
@@ -331,7 +332,7 @@
 		display: block;
 		position: absolute;
 		top: 7%;
-		left: 56%;
+		left: 670px;
 	}
 }
 
@@ -375,7 +376,12 @@
 /* ASK */
 
 .ask-container {
+	position: relative;
 	padding: 75px 0;
+	overflow-x: hidden;
+}
+
+.ask.wrapper {
 }
 
 .ask-header {
@@ -394,7 +400,6 @@
 
 .ask-btn {
 	display: flex;
-	position: absolute;
 }
 
 .ask-btn a {
@@ -411,8 +416,8 @@
 .ask-chick {
 	position: absolute;
 	background-color: rgba(0, 0, 0, 0);
-	bottom: -121px;
-	left: 190px;
+	bottom: 0;
+	right: -90px;
 }
 /* ASK END*/
 
