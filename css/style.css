@@ -341,6 +341,30 @@
 	}
 }
 
+@media (min-width: 575px) {
+	.hero-infograph-item-pic.lg {
+		display: flex;
+	}
+
+	.hero-infograph-item-pic.sm {
+		display: none;
+	}
+
+	.hero-infograph-item-text.lg {
+		display: flex;
+	}
+
+	.hero-infograph-item-text.sm {
+		display: none;
+	}
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+	.hero-btn.sm {
+		max-width: 500px;
+	}
+}
+
 @media (min-width: 320px) and (max-width: 340px) {
 	.hero-infograph {
 		flex-wrap: wrap;
