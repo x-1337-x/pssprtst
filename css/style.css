@@ -165,8 +165,7 @@
 
 .hero-container {
 	background-color: #18568f;
-	/* background: url(../images/hero-bg.jpg) 100% 0 no-repeat #165085; */
-	background: url(../images/hero-bg.jpg) 90% 82%/273% no-repeat #165084;
+	background: url(../images/hero-bg.jpg) 90% 82%/273% no-repeat #18568f;
 }
 
 .hero-dude {
@@ -273,7 +272,7 @@
 @media (min-width: 768px) {
 	.hero-container {
 		background-color: #18568f;
-		background: url(../images/hero-bg.jpg) 100% 0 no-repeat #165085;
+		background: url(../images/hero-bg.jpg) 100% 0 no-repeat #18568f;
 	}
 
 	.hero-btn.lg {
