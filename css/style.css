@@ -390,6 +390,44 @@
 }
 /* HERO END*/
 
+/* FEEDBACKS */
+
+.feedbacks-container {
+	background-color: #18568f;
+}
+
+.feedbacks-header {
+	font-family: 'PFCentroSlabPro-Bold';
+	font-size: 22px;
+	color: #ffffff;
+}
+
+.feedbacks-card-top-textbox-tlg {
+	font-family: 'PFCentroSlabPro-Regular';
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.feedbacks-card-top-textbox-tsm {
+	font-family: 'PFCentroSlabPro-Regular';
+	font-size: 10px;
+	color: #ffffff;
+}
+
+.feedbacks-card-top-pic img {
+	width: 73px;
+	height: 73px;
+	border-radius: 50%;
+}
+
+.feedbacks-card-bottom {
+	font-family: 'PFCentroSlabPro-Regular';
+	font-size: 14px;
+	color: #ffffff;
+}
+
+/* FEEDBACKS END */
+
 /* ASK */
 
 .ask-container {

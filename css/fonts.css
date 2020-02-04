@@ -10,6 +10,14 @@
 }
 
 @font-face {
+	font-family: 'PFCentroSlabPro-Regular';
+	src: url('../fonts/PFCentroSlabPro-Regular.ttf');
+	/* src: local('☺'), url('fonts/PFCentroSlabPro-Regular.woff') format('woff'), url('fonts/PFCentroSlabPro-Regular.ttf') format('truetype'), url('fonts/PFCentroSlabPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal; */
+}
+
+@font-face {
 	font-family: 'CynthoNext-Regular';
 	/* src: url('../fonts/CynthoNext-Regular.eot'); */
 	src: url('../fonts/CynthoNext-Regular.ttf');
