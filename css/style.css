@@ -46,7 +46,7 @@
 	font-family: 'CynthoNext-Medium';
 	font-size: 14px;
 	color: #fff;
-	padding: 0 25px;
+	padding: 0 20px;
 }
 
 .header-nav-item:hover {
@@ -165,7 +165,8 @@
 
 .hero-container {
 	background-color: #18568f;
-	background: url(../images/hero-bg.jpg) 90% 82%/273% no-repeat #18568f;
+	/* background: url(../images/hero-bg.jpg) 90% 82%/273% no-repeat #18568f; */
+	background: url(../images/hero-bg.jpg) 100% no-repeat #18568f;
 }
 
 .hero-dude {
@@ -272,7 +273,7 @@
 @media (min-width: 768px) {
 	.hero-container {
 		background-color: #18568f;
-		background: url(../images/hero-bg.jpg) 100% 0 no-repeat #18568f;
+		background: url(../images/hero-bg.jpg) 100% no-repeat #18568f;
 	}
 
 	.hero-btn.lg {
@@ -286,14 +287,14 @@
 	.hero-screamer {
 		padding: 40px 0;
 	}
-
+	/* 
 	.hero-screamer.sm {
 		display: none;
 	}
 
 	.hero-screamer.lg {
 		display: block;
-	}
+	} */
 
 	.hero-infograph {
 	}
@@ -341,6 +342,14 @@
 		position: absolute;
 		top: 7%;
 		left: 670px;
+	}
+
+	.hero-screamer.sm {
+		display: none;
+	}
+
+	.hero-screamer.lg {
+		display: block;
 	}
 }
 
