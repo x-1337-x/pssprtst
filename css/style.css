@@ -39,7 +39,7 @@
 
 .header-nav {
 	display: flex;
-	margin: 28px 30px 28px 0;
+	/* margin: 28px 30px 28px 0; */
 }
 
 .header-nav-item {
@@ -48,9 +48,16 @@
 	padding: 0 25px;
 }
 
+.header-nav-item:hover {
+	background-color: #134777;
+}
+
 .header-nav-item a {
 	color: #fff;
 	line-height: initial;
+	display: block;
+	height: 70px;
+	line-height: 70px;
 }
 
 @media (max-width: 960px) {
@@ -416,8 +423,9 @@
 .ask-chick {
 	position: absolute;
 	background-color: rgba(0, 0, 0, 0);
-	bottom: 0;
-	right: -90px;
+	bottom: -3px;
+	/* right: -90px; */
+	left: 60%;
 }
 /* ASK END*/
 
