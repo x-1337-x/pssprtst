@@ -43,6 +43,7 @@
 }
 
 .header-nav-item {
+	font-family: 'CynthoNext-Medium';
 	font-size: 14px;
 	color: #fff;
 	padding: 0 25px;
@@ -82,6 +83,7 @@
 }
 
 .header-contact a {
+	font-family: 'PFCentroSlabPro-Bold';
 	display: block;
 	font-size: 20px;
 	margin: 25px 0;
