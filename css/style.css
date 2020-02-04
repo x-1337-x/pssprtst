@@ -150,6 +150,7 @@
 
 .hero {
 	min-height: 500px;
+	position: relative;
 }
 
 .hero-container {
@@ -187,8 +188,7 @@
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-evenly;
-	/* padding: 10px 0; */
-	margin: 10px 0;
+	margin: 20px 0;
 }
 
 .hero-infograph-item {
@@ -256,6 +256,10 @@
 	font-size: 18px;
 }
 
+.hero-dude-large {
+	display: none;
+}
+
 @media (min-width: 768px) {
 	.hero-container {
 		background-color: #18568f;
@@ -283,7 +287,6 @@
 	}
 
 	.hero-infograph {
-		padding-bottom: 40px;
 	}
 
 	.hero-infograph-item-pic.lg {
@@ -316,6 +319,19 @@
 
 	.hero-infograph-item {
 		padding-right: 50px;
+	}
+}
+
+@media (min-width: 920px) {
+	.hero-dude {
+		display: none;
+	}
+
+	.hero-dude-large {
+		display: block;
+		position: absolute;
+		top: 7%;
+		left: 56%;
 	}
 }
 
