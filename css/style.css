@@ -20,6 +20,17 @@
 	background-color: #18568f;
 }
 
+@media (min-width: 961px) {
+	.header-container {
+		position: fixed;
+		z-index: 15;
+	}
+
+	.hero-container {
+		padding-top: 70px;
+	}
+}
+
 .header {
 	display: flex;
 	justify-content: space-between;
