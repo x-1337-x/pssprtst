@@ -445,6 +445,7 @@
 	position: relative;
 	padding: 75px 0;
 	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 .ask.wrapper {
