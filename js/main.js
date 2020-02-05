@@ -10,6 +10,8 @@ $(document).ready(function() {
 		nav: false,
 		loop: true,
 		dots: true,
-		autoplay: true
+		autoplay: true,
+		animateIn: true,
+		animateOut: true
 	});
 });
