@@ -470,8 +470,13 @@
 		font-size: 36px;
 	}
 
+	.feedbacks-card-top-pic img {
+		width: 73px;
+		height: 73px;
+	}
+
 	.feedbacks-card-top-textbox-tlg {
-		top: 24px;
+		font-size: 24px;
 	}
 
 	.feedbacks-card-top-textbox-tsm {
