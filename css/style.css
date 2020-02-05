@@ -402,6 +402,39 @@
 }
 /* HERO END*/
 
+.prices-header_sm {
+	font-family: 'PFCentroSlabPro-Bold';
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.prices-header_lg {
+	font-family: 'PFCentroSlabPro-Bold';
+	font-size: 36px;
+	display: none;
+	margin-bottom: 50px;
+}
+
+.prices-subheader_sm {
+	font-family: 'PFCentroSlabPro-Regular';
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 1024px) {
+	.prices-header_sm {
+		display: none;
+	}
+
+	.prices-header_lg {
+		display: block;
+	}
+
+	.prices-subheader_sm {
+		display: none;
+	}
+}
+
 /* FEEDBACKS */
 
 .feedbacks-container {
@@ -470,6 +503,10 @@
 	display: none;
 } */
 
+.owl-item {
+	overflow: hidden;
+}
+
 .owl-dots {
 	margin-top: 60px;
 	display: flex;
@@ -524,6 +561,10 @@
 	}
 }
 
+.feedbacks-card-right-half {
+	display: none;
+}
+
 @media (min-width: 1024px) {
 	.feedbacks-container {
 		/* background-color: #18568f; */
@@ -543,6 +584,10 @@
 		right: 0;
 		top: 75px;
 	} */
+
+	.feedbacks-card-right-half {
+		display: block;
+	}
 
 	.owl-dots {
 		margin-top: 70px;

@@ -10,7 +10,8 @@ $(document).ready(function() {
 		nav: false,
 		loop: true,
 		dots: true,
-		autoplay: true
+		autoHeight: true
+		// autoplay: true
 		// animateIn: true,
 		// animateOut: true
 	});
