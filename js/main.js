@@ -3,5 +3,13 @@ function toggleBurger(el) {
 }
 
 $(document).ready(function() {
-	$('.owl-carousel').owlCarousel();
+	$('.owl-carousel').owlCarousel({
+		slideSpeed: 800,
+		items: 1,
+		responsiveClass: true,
+		nav: false,
+		loop: true,
+		dots: true,
+		autoplay: true
+	});
 });

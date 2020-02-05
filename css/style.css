@@ -460,6 +460,24 @@
 	display: none;
 }
 
+.owl-dots {
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+}
+
+.owl-carousel button.owl-dot {
+	width: 8px;
+	height: 8px;
+	background-color: #2b3f61;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.owl-carousel button.owl-dot.active {
+	background-color: #f5852f;
+}
+
 @media (min-width: 769px) {
 	.feedbacks-container {
 		min-height: 535px;
@@ -486,6 +504,14 @@
 	.feedbacks-card-bottom {
 		font-size: 24px;
 	}
+
+	.owl-dots {
+		margin-top: 70px;
+	}
+
+	.owl-carousel button.owl-dot {
+		margin-right: 20px;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -507,6 +533,12 @@
 		right: 0;
 		top: 75px;
 	} */
+
+	.owl-dots {
+		margin-top: 70px;
+		display: block;
+		margin-left: 180px;
+	}
 }
 
 @media (min-width: 1135px) {
@@ -519,7 +551,11 @@
 	}
 
 	.feedbacks-card {
-		width: 50%;
+		/* width: 50%; */
+	}
+
+	.fb {
+		max-width: 50%;
 	}
 
 	.feedbacks-chat-dummy {
